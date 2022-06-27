@@ -1,0 +1,6 @@
+interface Http {
+  on(url: string, method: string, fn: any): void;
+  listen(port: number): void;
+}
+
+export default Http;
